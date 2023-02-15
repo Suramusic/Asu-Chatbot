@@ -1,8 +1,8 @@
 from os import getenv
 
-LOAD = getenv("LOAD", "").split()
+LOAD = getenv("LOAD", "True").split()
 
-NO_LOAD = getenv("NO_LOAD", "").split()
+NO_LOAD = getenv("NO_LOAD", "True").split()
 
 TOKEN = getenv("TOKEN", "5920443941:AAG1UJMR9X7QvM-wUH617Bz8pU-MRqlpM8E")
 
