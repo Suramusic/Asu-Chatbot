@@ -1,12 +1,12 @@
 from os import getenv
 
-LOAD = getenv("LOAD", "").split()
+LOAD = getenv("LOAD", "1471469091").split()
 
-NO_LOAD = getenv("NO_LOAD", "").split()
+NO_LOAD = getenv("NO_LOAD", "1471469091").split()
 
-TOKEN = getenv("TOKEN", None)
+TOKEN = getenv("TOKEN", "5920443941:AAG1UJMR9X7QvM-wUH617Bz8pU-MRqlpM8E")
 
 MONGO_DB_URL = getenv(
     "MONGO_DB_URL",
-    "mongodb+srv://bsdk:betichod@cluster0.fgj1r9z.mongodb.net/?retryWrites=true&w=majority",
+    "mongodb+srv://Lallumic: Lallumic@cluster0.hwfluz1.mongodb.net/?retryWrites=true&w=majority",
 )
